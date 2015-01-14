@@ -1,6 +1,8 @@
 # Kickstart-Progress-Bars
 Progress bars for Kickstart
 
+Apply Kickstart styling to the default HTML5 element.
+
 ## Usage
 After installing the submodule, add the component to your vendor index file.
 
@@ -16,6 +18,10 @@ Add the `progress()` mixin to a progress element
 Optionally define a bar or background color
 
     progress($color: black, $background-color: white);
+
+Create a progress bar on your site
+
+    <progress max="100" value="50"></progress>
 
 ## Setting expectations
 
