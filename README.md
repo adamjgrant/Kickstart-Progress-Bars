@@ -3,20 +3,20 @@ Progress bars for Kickstart
 
 ## Usage
 1. After installing the submodule, add the component to your vendor index file.
-
+Example
 
     // lib/sass/vendor/_index.sass
     @import Kickstart-Progress-Bars/progress
 
 2. Add the `progress()` mixin to a progress element
-
+Example
 
     progress {
       @include progress();
     }
 
 3. Optionally define a bar or background color
-
+Example
 
     progress($color: black, $background-color: white);
 
